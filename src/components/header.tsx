@@ -1,4 +1,5 @@
-import { ChevronDown, Tags } from 'lucide-react'
+import { ChevronDown } from 'lucide-react'
+
 import nivoLogo from '../assets/logo-nivo.svg'
 import { Badge } from './ui/badge'
 
@@ -8,6 +9,7 @@ export function Header() {
       <div className="flex items-center gap-3">
         <div className="flex items-center gap-2.5">
           <img src={nivoLogo} alt="nivo.video" />
+
           <Badge>BETA</Badge>
         </div>
 
@@ -66,11 +68,11 @@ export function Header() {
 
       <div className="flex items-center gap-3">
         <div className="flex flex-col items-end gap-0.5">
-          <span className="text-sm font-medium">phr31</span>
-          <span className="text-xs text-zinc-400">phr31@hotmail.com</span>
+          <span className="text-sm font-medium">Diego Fernandes</span>
+          <span className="text-xs text-zinc-400">diego@nivo.video</span>
         </div>
         <img
-          src="https://github.com/phr31.png"
+          src="https://github.com/diego3g.png"
           className="size-8 rounded-full"
           alt=""
         />
